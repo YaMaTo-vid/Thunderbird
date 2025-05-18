@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="km">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thunderbird</title>
+    <link href="https://fonts.googleapis.com/css2?family=Battambang&display=swap" rel="stylesheet">
+
+       <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <img src="img/Thunderbird_2023_icon.png" alt="Thunderbird Logo">
+
+        <div class="nav-links">
+            <a href="index.html" data-translate="nav.download"></a>
+            <a href="account.html" data-translate="nav.login"></a>
+            <a href="testing.html" data-translate="nav.testing"></a>
+            <a href="changepass.html" data-translate="nav.features"></a>
+        </div>
+
+        <!-- Add language switcher -->
+        <div class="language-switcher">
+            <button class="current-lang">
+                <span class="lang-text">ភាសាខ្មែរ</span>
+                <span class="arrow">▼</span>
+            </button>
+            <ul class="lang-dropdown">
+                <li data-lang="km" class="active">ភាសាខ្មែរ</li>
+                <li data-lang="en">English</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="usage-guide-section" id="login-instructions">
+        <h2 class="section-title" data-translate="download.title">របៀប Download និងតម្លើង</h2>
+
+        <div class="usage-steps">
+            <!-- Step 1 -->
+            <div class="usage-card">
+                <div class="usage-header">
+                    <h3 data-translate="step1.title"></h3>
+                </div>
+                <div class="usage-content">
+                    <div class="usage-image-wrapper">
+                        <img src="img/download1.png" alt="បើកកម្មវិធី Thunderbird" class="usage-preview">
+                    </div>
+                    <div class="usage-details">
+                        <p class="step-description" data-translate="step1.description"></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Step 2 -->
+            <div class="usage-card">
+                <div class="usage-header">
+                    <h3 data-translate="step2.title"></h3>
+                </div>
+                <div class="usage-content">
+                    <div class="usage-image-wrapper">
+                        <img src="img/download2.png" alt="បើកកម្មវិធី Thunderbird" class="usage-preview">
+                    </div>
+                    <div class="usage-details">
+                        <p class="step-description" data-translate="step2.description"></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Step 3 -->
+            <div class="usage-card">
+                <div class="usage-header">
+                    <h3 data-translate="step3.title"></h3>
+                </div>
+                <div class="usage-content">
+                    <div class="usage-image-wrapper">
+                        <img src="img/download3.png" alt="បើកកម្មវិធី Thunderbird" class="usage-preview">
+                    </div>
+                    <div class="usage-details">
+                        <p class="step-description" data-translate="step3.description"></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Step 4 -->
+            <div class="usage-card">
+                <div class="usage-header">
+                    <h3 data-translate="step4.title"></h3>
+                </div>
+                <div class="usage-content">
+                    <div class="usage-image-wrapper">
+                        <img src="img/download4.png" alt="បើកកម្មវិធី Thunderbird" class="usage-preview">
+                    </div>
+                    <div class="usage-details">
+                        <p class="step-description" data-translate="step4.description"></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Step 5 -->
+            <div class="usage-card">
+                <div class="usage-header">
+                    <h3 data-translate="step5.title"></h3>
+                </div>
+                <div class="usage-content">
+                    <div class="usage-image-wrapper">
+                        <img src="img/download5.png" alt="បើកកម្មវិធី Thunderbird" class="usage-preview">
+                    </div>
+                    <div class="usage-details">
+                        <p class="step-description" data-translate="step5.description"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/translations.js"></script>
+<script src="js/language-switcher.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>

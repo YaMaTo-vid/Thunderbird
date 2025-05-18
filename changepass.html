@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="km">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>គន្លឹះសម្រាប់ SmartNas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Battambang&display=swap" rel="stylesheet">
+
+       <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <img src="img/Thunderbird_2023_icon.png" alt="Thunderbird Logo">
+
+        <div class="nav-links">
+            <a href="index.html" data-translate="nav.download"></a>
+            <a href="account.html" data-translate="nav.login"></a>
+            <a href="testing.html" data-translate="nav.testing"></a>
+            <a href="changepass.html" data-translate="nav.features"></a>
+        </div>
+
+        <!-- Add language switcher -->
+        <div class="language-switcher">
+            <button class="current-lang">
+                <span class="lang-text">ភាសាខ្មែរ</span>
+                <span class="arrow">▼</span>
+            </button>
+            <ul class="lang-dropdown">
+                <li data-lang="km" class="active">ភាសាខ្មែរ</li>
+                <li data-lang="en">English</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="usage-guide-section" id="usage-guide">
+        <h2 class="section-title" data-translate="changepass.title"></h2>
+        <div class="usage-steps">
+            <!-- Step 1 -->
+            <div class="usage-card">
+                <div class="usage-header">
+                    <h3 data-translate="changepass1.title"></h3>
+                </div>
+                <div class="usage-content">
+                    <div class="usage-image-wrapper">
+                        <img src="img/changpass1.png" alt="បើកកម្មវិធី Thunderbird" class="usage-preview clickable-image">
+                    </div>
+                    <div class="usage-details">
+                        <p class="step-description" data-translate="changepass1.description"></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Step 2 -->
+            <div class="usage-card">
+                <div class="usage-header">
+                    <h3 data-translate="changepass2.title"></h3>
+                </div>
+                <div class="usage-content">
+                    <div class="usage-image-wrapper">
+                        <img src="img/changpass2.png" alt="បើកកម្មវិធី Thunderbird" class="usage-preview clickable-image">
+                    </div>
+                    <div class="usage-details">
+                        <p class="step-description" data-translate="changepass2.description"></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Step 3 -->
+            <div class="usage-card">
+                <div class="usage-header">
+                    <h3 data-translate="changepass3.title"></h3>
+                </div>
+                <div class="usage-content">
+                    <div class="usage-image-wrapper">
+                        <img src="img/changpass3.png" alt="បើកកម្មវិធី Thunderbird" class="usage-preview clickable-image">
+                    </div>
+                    <div class="usage-details">
+                        <p class="step-description" data-translate="changepass3.description"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/translations.js"></script>
+<script src="js/language-switcher.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
